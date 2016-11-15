@@ -1,0 +1,270 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+body {
+	width: 100%;
+}
+main {
+	position: relative;
+	width: 875px;
+	height: 625px;
+	margin: 0 auto;
+	padding-top: 25px;
+	background: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+
+/*HEADER*/
+.header {
+	width: 100%;
+}
+.logo {
+	width: 40px;
+	height: 14px;
+	display: inline-block;
+	margin-left: 65px;
+	background: url(../img/logo.png);
+	background-repeat: no-repeat;
+}
+.menu {
+	display: inline-block;
+	padding-left: 115px;
+}
+.menu__item {
+	display: inline-block;
+	list-style: none;
+	margin: 0 17px;
+	padding-bottom: 4px;
+}
+.menu__link {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 300;
+}
+.menu__item:hover {
+	border-bottom: 2px solid white;
+}
+.btn-menu {
+	display: inline-block;
+	width: 25px;
+	margin-left: 85px;
+}
+.btn-menu__line {
+	height: 5px;
+	border-bottom: 1px solid white;
+}
+/*END HEADER*/
+
+
+
+
+.card3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 780px;
+	height: 400px;
+	background-color: white;
+	opacity: .2;
+}
+.card2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 805px;
+	height: 380px;
+	background-color: white;
+	opacity: .2;
+}
+
+
+
+/*PRODUCT CARD*/
+.product-card {
+	position: relative;
+	top: 56px;
+	left: 61px;
+	width: 755px;
+	height: 420px;
+	background: url(../img/bg_block.jpg);
+}
+/*Product-card-left*/
+.product-card-left {
+	width: 66%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.product-card-left__title {
+	position: absolute;
+	left: 41px;
+	top: 79px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	font-size: 77px;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 15px 15px 15px #f1ebf3;
+}
+.product-card-left__img {
+	position: absolute;
+	top: 94px;
+	left: 45px;
+}
+.product-card-left__btn-add {
+	position: absolute;
+	right: 25px;
+	bottom: 70px;
+}
+.product-card-left__bot-img-one {
+	position: absolute;
+	right: 285px;
+	bottom: 25px;
+}
+.product-card-left__bot-img-two {
+	position: absolute;
+	right: 226px;
+	bottom: 25px;
+}
+.product-card-left__bot-img-three {
+	position: absolute;
+	right: 167px;
+	bottom: 25px;
+}
+/*Product-card-right*/
+.product-card-right {
+	width: 34%;
+	height: 100%;
+	float: right;
+	background-color: white;
+	position: relative;
+}
+.product-card-right__btn-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.product-card-right__new-text {
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 4px;
+}
+.product-card-right__new {
+	width: 45px;
+	height: 24px;
+	background-color: #FFA60D;
+	position: absolute;
+	top: 27px;
+	left: 25px;
+}
+.product-card-right__text {
+	position: absolute;
+	top: 60px;
+	left: 25px;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+.product-card-right__text-running {
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #5E4FFF;
+}
+.product-card-right__huarache {
+	display: inline-block;
+	position: absolute;
+	left: 25px;
+	top: 131px;
+	font-weight: 700;
+}
+
+/*vote*/
+.rate {
+	display: inline-block;
+	position: absolute;
+	left: 110px;
+	top: 131px;
+}
+/*end vote*/
+
+.price {
+	font-size: 24px;
+	font-weight: 100;
+	position: absolute;
+	left: 25px;
+	top: 157px;
+}
+.size {
+	position: absolute;
+	left: 25px;
+	bottom: 170px;
+}
+.size__text {
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+/*choose size*/
+.size__number {
+	font-size: 18px;
+	padding: 5px 10px;
+	margin-right: 5px;
+}
+input[type="radio"] {
+	display: none;
+}
+input:checked+label{
+	border: 1px solid black;
+}
+/*end choose size*/
+
+.btn-add-cart {
+	width: 115px;
+	height: 30px;
+	position: absolute;
+	left: 33px;
+	bottom: 110px;
+	background: #A200B8;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+}
+.btn-wishlist	{
+	width: 115px;
+	height: 30px;
+	position: absolute;
+	left: 33px;
+	bottom: 75px;
+	background: none;
+	outline: none;
+	border: 1px solid black;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+}
+/*END PRODUCT-CARD*/
