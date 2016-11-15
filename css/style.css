@@ -96,8 +96,8 @@ main {
 
 /*PRODUCT CARD*/
 .product-card {
-	position: relative;
-	top: 56px;
+	position: absolute;
+	top: 103px;
 	left: 61px;
 	width: 755px;
 	height: 420px;
